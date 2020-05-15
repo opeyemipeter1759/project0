@@ -1,0 +1,70 @@
+@import url('../CSS/fonts.css');
+:root{ 
+  /* theme font-family */
+  --buda:'buda';
+  --bentham:'bentham';
+  --fell1:'IM_Fell_DW_Pica';
+  --fell2:'IM_Fell_DW_Pica_SW';
+  --fell:'IM_Fell_ENGLISH_Pica';
+  --inconso:'Inconsolata';
+  --Yan:'Yanone_Kaffeesatz';
+  --Tangerine:'Tangerine';}
+
+.navbar navbar-expand-lg navbar-light bg-light{
+  background-color: black !important;
+}
+.nav-link{
+  color: whitesmoke !important;
+}
+.navbar-light .navbar-brand{
+  color:rgb(250, 248, 244) !important;
+  font-family:var(--Tangerine) !important;
+  font-size: 60px;
+}
+.carousel-caption{
+  top: 10px;
+  bottom: auto;  
+}
+
+.carouselExampleCaptions{
+  height: auto;
+  width: auto;
+  overflow: hidden;
+}
+
+
+button{
+  background-color: gray !important; 
+}
+button:hover{
+  color: #cccccc;
+	font-weight: bold;
+
+}
+
+aside#sidebar{
+  float: right;
+  width:100%;
+ 
+}
+aside#sidebar1{
+  float:left;
+  width: 100%;
+  
+}
+
+aside#sidebar2{
+  float: left;
+  width: 100%;
+ 
+}
+aside#sidebar3{
+  float:right;
+  width: 100%;
+}
+
+
+.display-4{
+  text-align: center;
+  font-family: var(--buda);
+}
